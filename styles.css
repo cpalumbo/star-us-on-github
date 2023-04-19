@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.github-star-count {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    background-color: #2a2a42;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.github-star-count a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.cta-text {
+    margin-right: 10px;
+}
+
+.star-icon {
+    margin-right: 10px;
+}
+
+.star-count-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 58px;
+    min-height: 32px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: #2a2a42;
+}
